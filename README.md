@@ -67,8 +67,7 @@ The framework focuses exclusively on the **eligibility section** of each protoco
 
 The extraction module transforms these free-text requirements into a structured representation that can be used for patient matching.
 
-Notebook:
-notebooks/01_data/01_protocol_preprocessing.ipynb
+[Notebook](notebooks/02_framework/02_parsing_protocols_and_extraction.ipynb)
 
 ---
 
@@ -86,8 +85,7 @@ Example attributes include:
 - Laboratory measurements
 - Clinical notes
 
-Notebook:
-notebooks/01_data/02_patient_preprocessing.ipynb
+[Notebook](notebooks/01_data/01_mimic_preprocessing.ipynb)
 
 ---
 
@@ -95,7 +93,7 @@ notebooks/01_data/02_patient_preprocessing.ipynb
 
 The first module uses an LLM to analyze the eligibility section of clinical trial protocols and generate structured inclusion and exclusion criteria.
 
-Notebook: notebooks/02_framework/03_eligibility_extraction.ipynb
+[Notebook](notebooks/02_framework/02_parsing_protocols_and_extraction.ipynb)
 
 
 ---
@@ -113,7 +111,7 @@ The LLM evaluates whether each patient satisfies the study requirements and prod
 - Clinical justification
 
 Notebook:
-notebooks/02_framework/04_semantic_patient_matching.ipynb
+[Notebook](notebooks/02_framework/03_clinical_patient_matching.ipynb)
 
 
 ---
@@ -132,8 +130,7 @@ Metrics include:
 - Recall
 - Cohen's Kappa agreement
 
-Notebook:
-notebooks/03_evaluation/05_extraction_evaluation.ipynb
+[Notebook](notebooks/03_evaluation/06_analyze_extraction_results.ipynb)
 
 
 ---
@@ -149,9 +146,7 @@ The evaluation includes:
 - Missing clinical evidence analysis
 - Cross-model agreement analysis
 
-Notebooks:
-notebooks/03_evaluation/06_matching_evaluation.ipynb
-notebooks/03_evaluation/07_matching_agreement_analysis.ipynb
+[Notebook](notebooks/03_evaluation/09_generate_paper_results.ipynb)
 
 
 ---
